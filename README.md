@@ -12,7 +12,7 @@ $ cd ~/Documentos/_keys_web_open_ssl/
 ## Paso 1 generar primero el .key 
 Para esto ejecuten el siguiente comando, tomen en cuenta que el nombre antes del .test.key puede ser un nombre cualquiera no necesariamente el del ejemplo
 ```
-$ sudo openssl genrssa -out pruebaseguridad.test.key
+$ sudo openssl genrsa -out pruebaseguridad.test.key
 ```
 Esto nos generara un archivo con el nombre ``` pruebaseguridad.test.key ``` el cual contiene una llave con alfanumericos
 
